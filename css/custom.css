@@ -653,9 +653,6 @@ form.search-SM::after {
 .wrapper-topBanner{
  display: none;
 }
-.wrapper-topBanner{
- display: none;
-}
 .wrapper-topBanner-SM{
  display: block;
 }
@@ -738,11 +735,12 @@ form.search-SM::after {
   background-color: none;
   background-image: none;
 }
-.wrapper-topBanner{
- display: none;
-}
+
 .wrapper-topBanner-SM{
  display: block;
+}
+.wrapper-topBanner{
+ display: none;
 }
 
 .search-SM {	  	
@@ -755,6 +753,13 @@ form.search-SM input[type=text] {
 .left-part-area{
   display: none;
 }
+.txt-b2 {
+  padding: 5px 15px 24px 15px;
+  } 
+
+.content .more2{ 
+  padding: 21px 15px 10px 0px;
+  }
 .right-part-area{
   display: none;
 }
@@ -823,6 +828,21 @@ form.search input[type=text] {
 .content .header2{  
   font-size: 0.90rem;  
 }
+.left-menu .more-left{ 
+  padding: 7px 15px 256px 0px;
+  }
+.txt-b2 {
+  padding: 5px 15px 5px 15px;
+  }
+.content .more2{ 
+  padding: 20px 15px 10px 0px;  
+}
+.content .more3{ 
+  padding: 10px 15px 10px 0px;  
+}
+.img-change { 
+  padding: 40px 15px 40px 15px; 
+  }
 }
 
 @media screen and (min-width: 1366px) {
@@ -860,12 +880,12 @@ form.search input[type=text] {
 .content .more3{ 
   padding: 10px 15px 84px 0px;  
 }
+.img-change { 
+  padding: 15px; 
+  }
 }
 
 @media screen and (max-width: 576px) {
-.wrapper-topBanner{
- display: none;
-}
 .wrapper-topBanner{
  display: none;
 }
@@ -885,7 +905,5 @@ form.search-SM input[type=text] {
 .bot-txt {
   display: none;
   }
-
-
 
 }
