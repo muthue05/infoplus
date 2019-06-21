@@ -748,7 +748,7 @@ form.search-SM::after {
   
   }
 form.search-SM input[type=text] {
-  width: 160px;
+  width: 130px;
 }
 .left-part-area{
   display: none;
