@@ -744,11 +744,11 @@ form.search-SM::after {
 }
 
 .search-SM {	  	
-  padding: 5px 20px 0px 15px; 
+  padding: 5px 15px 0px 15px; 
   
   }
 form.search-SM input[type=text] {
-  width: 180px;
+  width: 160px;
 }
 .left-part-area{
   display: none;
